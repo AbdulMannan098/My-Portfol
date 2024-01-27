@@ -27,7 +27,7 @@ function App() {
     };
   }, [ratio]);
 
-  return ratio <2 ?(
+  return ratio <2.2 ?(
   <>
     <Toaster/>
     <HeaderPhone menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
